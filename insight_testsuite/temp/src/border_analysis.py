@@ -94,7 +94,9 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument("csvpath")
+    parser.add_argument("outputpath")
     csvpath = parser.parse_args().csvpath
+    outputpath = parser.parse_args().outputpath
 
     # data = readfile(csvpath, data) # reading small file
 
@@ -157,7 +159,8 @@ if __name__ == '__main__':
     j = 0
     k = 0
     l = 0
-    filename = './output/report.csv'
+    # filename = './output/report.csv'
+    filename = outputpath
     # writing to csv file
     with open(filename, 'w') as csvfile:
         # creating a csv writer object
