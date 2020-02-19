@@ -6,6 +6,6 @@ Using Dictionaries to store, group and link data and calculate the sum of the va
 If in the src directory
  - python border_analysis.py ../input/Border_Crossing_Entry_Data.csv ../output/report.csv
 
-./run.sh will has two iterations:
+./run.sh has two iterations:
  - one over the small file (./input/Border_Crossing_Entry_Data.csv)
  - one over the large file (./input/Border_Crossing_Entry_Data2.csv) #currently this is commented out
